@@ -195,6 +195,15 @@
   .mt-\[100pz\] {
     margin-top: 100pz;
   }
+  .mt-\[150px\] {
+    margin-top: 150px;
+  }
+  .mt-\[250px\] {
+    margin-top: 250px;
+  }
+  .mt-\[350px\] {
+    margin-top: 350px;
+  }
   .mt-\[400px\] {
     margin-top: 400px;
   }
@@ -1236,6 +1245,11 @@
   .lg\:mx-auto {
     @media (width >= 64rem) {
       margin-inline: auto;
+    }
+  }
+  .lg\:mt-\[50px\] {
+    @media (width >= 64rem) {
+      margin-top: 50px;
     }
   }
   .lg\:block {
